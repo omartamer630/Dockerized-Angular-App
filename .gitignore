@@ -1,0 +1,16 @@
+# Ignore everything
+*
+
+# Don't ignore Dockerfile
+!/Dockerfile
+!.dockerignore
+# Don't ignore hidden files like .gitignore itself
+!.gitignore
+
+# Don't ignore directories
+!*/
+
+# Don't ignore specific configuration files you might want to keep
+!nginx.conf
+angular.json
+
